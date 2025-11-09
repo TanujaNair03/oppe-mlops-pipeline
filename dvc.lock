@@ -6,11 +6,11 @@ stages:
     deps:
     - path: scripts/process_data.py
       hash: md5
-      md5: 60574c96e48b1c248705ab599f30b3bf
-      size: 4512
+      md5: 0b0d97413e403c66d0e65a8731331754
+      size: 4885
       isexec: true
     outs:
     - path: data/processed/processed_data.parquet
       hash: md5
-      md5: 545d4e755cf3fde994c6399cde0bf6d3
-      size: 1868279
+      md5: 8f8b644fbe0924d0cab140c22e068411
+      size: 28896303
