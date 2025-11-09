@@ -1,0 +1,5 @@
+[core]
+    no_scm = True
+    remote = gcs
+['remote "gcs"']
+    url = gs://flowing-subset-444209-c9-bucket1/dvc-store

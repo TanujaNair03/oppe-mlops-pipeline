@@ -5,3 +5,19 @@ sa-key.json
 __pycache__/
 .DS_Store
 
+# Python virtual environment
+.venv/
+
+# DVC / data artifacts
+/data/
+/tmp/
+/mlflow.db
+/feature_repo/registry.db
+/feature_repo/online_store.db
+/feature_repo/offline_store/
+/*.pyc
+__pycache__/
+
+# Service account key (DO NOT COMMIT)
+sa-key.json
+/home/jupyter/sa-key.json

@@ -1,0 +1,7 @@
+stages:
+  process:
+    cmd: python scripts/process_data.py --input_dir data/raw --output_file data/processed/processed_data.parquet
+    deps:
+      - scripts/process_data.py
+    outs:
+      - data/processed/processed_data.parquet
